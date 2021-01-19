@@ -48,3 +48,5 @@ y_pred = model.predict_classes(X_test)
 # First 3 predictions
 print(np.array(class_names)[y_pred[:3]])
 
+##Finshed
+
