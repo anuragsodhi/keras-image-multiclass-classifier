@@ -46,5 +46,5 @@ plt.show()
 y_pred = model.predict_classes(X_test)
 
 # First 3 predictions
-np.array(class_names)[y_pred[:3]]
+print(np.array(class_names)[y_pred[:3]])
 
